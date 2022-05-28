@@ -1,0 +1,111 @@
+body {
+    position: relative;
+    background-image: url(../img/боги.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
+    margin: 0px;
+    font-size: 18px; 
+    font-family: "Comic Sans MS";
+}
+
+h1 {
+    display: inline;
+    position: absolute;
+    left: 30px;
+    top: 1px;
+}
+
+a {
+    text-decoration: none;
+}
+
+article {
+    border: #DCDCDC;
+    margin: 30px 100px 30px;
+    padding: 30px;
+    padding-top: 30px;
+    background-color: rgba(245, 229, 157, 0.8);
+    border: 2px solid rgba(255, 255, 255, 0.582);
+}
+
+img {
+    width: 50%;
+    height: 30%;
+    border: 2px solid rgba(255, 255, 255, 0.582);
+}
+
+.firstpct {
+    width: 100%;
+    vertical-align: middle;
+}
+
+footer {
+    background-color: #c0a15e;
+    padding: 10px;
+    border-top: 2px solid rgba(255, 255, 255, 0.582);
+    font-family: "Comic Sans MS";
+}
+
+.list {
+    font-size: 23px;
+    display: inline-block;
+}
+
+nav {
+    padding: 24px;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    width: 100%;
+}
+
+#nav-3 {
+    background: #EEA200;
+}
+
+.link-3 {
+    transition: 0.4s;
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 0 50px;
+    padding-right: 50px;
+    margin: 0 10px;
+}
+
+.link-3:hover {
+    background-color: #ffffff;
+    color: #EEA200;
+    padding: 24px 50px;
+    padding-right: 50px;
+}
+
+.linkup {
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 25px;
+    background-color: #EEA200;
+    position: fixed;
+    right: 30px;
+    top: 660px;
+    color:#ffffff;
+    transition: 0.5s;
+    border: 2px solid white;
+    font-family: Arial, Helvetica, sans-serif;     
+}
+
+.linkup:hover {
+    background-color: #ffffff;
+    color: #EEA200;
+}
+
+p {
+    font-weight: 500;
+}
+
+
+
+
